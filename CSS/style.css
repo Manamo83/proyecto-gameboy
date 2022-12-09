@@ -1,0 +1,40 @@
+
+.container-sm{
+    position: absolute;
+    background-color: #d6d6d6;
+    border-radius: 20px 20px 120px 20px;
+    max-height: 50%;
+    width: 30%;
+    margin: 2%;
+    padding: 3%;
+}
+
+.row {
+    background-color: #6d7781;
+    padding: 3% 8%;
+    max-height: 50%;
+    border-radius: 15px 15px 50px 15px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: azure;
+    text-emphasis-style: line;
+}
+
+.col-12 {
+    padding: 2%;
+}
+
+.col-12 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .col-12 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
