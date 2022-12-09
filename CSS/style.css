@@ -1,19 +1,20 @@
 
-.container-sm{
-    position: absolute;
+#container-1{
+
     background-color: #d6d6d6;
-    border-radius: 10px 10px 120px 10px;
+    border-radius: 10px 10px 0px 0px;
     max-height: 50%;
     width: 30%;
-    margin: 2%:
 
 }
+
 .container-grid-1{
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
     display: grid;
-    grid-template-rows: 1fr;
     height: auto;
+    grid-auto-rows: minmax(100px, auto);
 }
+
 .col-1 button {
     color: #b1b0b0;
     border-style: solid 1px;
@@ -24,8 +25,8 @@
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
-    
 }
+
 .row-1 {
 border-style: outset;
 padding: 0%;
@@ -33,6 +34,7 @@ margin-bottom: 6%;
 border-radius: 10px 0px 0px 0px ;
 height: 40px;
 }
+
 .row-1-1 {
     border-style: outset;
     padding: 0%;
@@ -47,32 +49,69 @@ height: 40px;
     height: 40px;
 }
 
-.row-3 {
-    background-color: #6d7781;
-    padding: 3% 8%;
+#container-2{
+    background-color: #d6d6d6;
+    border-radius: 0px 0px 120px 10px;
     max-height: 50%;
+    width: 30%;
+}
+
+.container-grid-2{
+    grid-template-columns: 1fr 6fr 1fr;
+    display: grid;
+}
+
+.row-4 {
+    grid-template-columns: 1fr 9fr 1fr;
+    display: grid;
+    background-color: #6d7781;
+    padding: 3% 6% 3% 2%;
+    max-height: auto;
     border-radius: 15px 15px 50px 15px;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: azure;
-    text-emphasis-style: line;
+.row-4-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.col-12 {
+.row-4-1 button {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: rgb(25, 182, 77);
+}
+
+.row-4-1 p {
+    font-size: 8px;
+    text-align: center;
+    color: azure;
+}
+
+.row-4-2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: azure;
+    text-align: right;
+
+}
+
+.row-4-2 {
     padding: 2%;
 }
 
-.col-12 img{
+.row-4-2 img{
     width: 100%;
     height: auto;
   }
   @supports(object-fit: cover){
-      .col-12 img{
+      .row-4-2 img{
         height: 100%;
         object-fit: cover;
         object-position: center center;
       }
   }
+
