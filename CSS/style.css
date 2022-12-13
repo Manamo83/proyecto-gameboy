@@ -1,3 +1,53 @@
+#wrapper {
+display: grid;
+grid-template-columns: 1fr 9fr 1fr;
+grid-gap: 10px;
+background-color: #d6d6d6;
+border-radius: 10px 10px 0px 0px;
+max-height: 50%;
+width: 30%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.one {
+grid-column: 1 / 4;
+grid-row: 1;
+height:20px;
+display: grid;
+grid-template-columns: 1fr 9fr 1fr;
+}
+
+.two {
+grid-column: 2;
+grid-row: 2;
+grid-template-columns: 1fr 9fr 1fr;
+display: grid;
+background-color: #6d7781;
+padding-bottom: 15%;
+max-height: auto;
+border-radius: 15px 15px 50px 15px;
+border: solid rgb(75, 75, 75);
+border-left: 0px;
+border-right: 0px;
+border-bottom: 0px;
+ margin-top: 6%;
+}
+
+.three {
+grid-column: 2;
+grid-row: 3;
+height: 50px;
+}
+
+.four {
+grid-column: 2;
+grid-row: 4;
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+height: 150px;
+}
+
 .colum-1 {
 border-style: outset;
 padding: 0%;
@@ -7,31 +57,32 @@ height: 30px;
 }
 
 .colum-3 {
-    border-style: outset;
-    padding: 0%;
-    margin-bottom: 6%;
-    border-radius: 0px 10px 0px 0px ;
-    height: 30px;
+border-style: outset;
+padding: 0%;
+margin-bottom: 6%;
+border-radius: 0px 10px 0px 0px ;
+height: 30px;
 }
 
 .colum-2 {
-    border-style: outset;
-    margin-bottom: 6%;
-    height: 30px;
+border-style: outset;
+margin-bottom: 6%;
+height: 30px;
 }
+
 .element-1 button {
-    color: #b1b0b0;
-    border-radius: 20px;
-    border-color: #b1b0b0;
-    position: relative;
-    margin-top: 1%;
+color: #b1b0b0;
+border-radius: 20px;
+border-color: #b1b0b0;
+position: relative;
+margin-top: 1%;
 }
 
 .colum-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .colum-4 button {
@@ -72,59 +123,83 @@ height: 30px;
 
 .three p {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 18px;
+font-size: 14px;
 color: #323d72;
-grid-row: 2;
- }
-
-
-
- #wrapper {
-    display: grid;
-    grid-template-columns: 1fr 9fr 1fr;
-    grid-gap: 10px;
-    background-color: #d6d6d6;
-    border-radius: 10px 10px 0px 0px;
-    max-height: 50%;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .one {
-    grid-column: 1 / 4;
-    grid-row: 1;
-    height:20px;
-    display: grid;
-    grid-template-columns: 1fr 9fr 1fr;
- 
-  }
-
-  .two {
-    grid-column: 2;
-    grid-row: 2;
-    grid-template-columns: 1fr 9fr 1fr;
-    display: grid;
-    background-color: #6d7781;
-    padding-bottom: 15%;
-    max-height: auto;
-    border-radius: 15px 15px 50px 15px;
-    border: solid rgb(75, 75, 75);
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 0px;
-    margin-top: 6%;
-
-  }
-
-  .three {
-    grid-column: 2;
-    grid-row: 3;
-    height: 50px;
+margin-top: 0%;
 }
-  .four {
-    grid-column: 2;
-    grid-row: 4;
-    height: 200px;
-    background-color: green;
+
+.three span {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 22px;
+color: #323d72;
+}
+
+.colum-6 {
+grid-column: 1;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+display: grid;
+max-height: fit-content;
+}
+
+.colum-6-1 {
+grid-column: 2;
+grid-row: 1;
+background-color: rgb(39, 39, 39);
+border-radius: 10px 10px 0px 0px;
+}
+
+.colum-6-2 {
+grid-column: 2;
+grid-row: 2;
+background-color: rgb(39, 39, 39);
+}
+
+.colum-6-3 {
+grid-column: 1;
+grid-row: 2;
+background-color: rgb(39, 39, 39);
+border-radius: 10px 0px 0px 10px;
+}
+
+.colum-6-4 {
+grid-column: 3;
+grid-row: 2;
+background-color: rgb(39, 39, 39);
+border-radius: 0px 10px 10px 0px;
+}
+
+.colum-6-5 {
+grid-column: 2;
+grid-row: 3;
+background-color: rgb(39, 39, 39);
+border-radius: 0px 0px 10px 10px;
+}
+
+.colum-7 {
+  grid-column: 3;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+
+  }
+  
+  .colum-7-1 {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #9e1c58;
+  border-radius: 80px;
+  }
+  
+  .colum-7-2 {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #9e1c58;
+  border-radius: 50px;
+  }
+
+.colum-7-1 p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+font-size: 20px;
   }
