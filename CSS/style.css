@@ -220,6 +220,27 @@ height: 90px;
 padding-left: 25%;
 margin-top: 40px;
 }
+.out-select{
+  grid-column: 1;
+  grid-row: 1;
+}
+.out-start {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.out-select, .out-start {
+  width: 90px;
+  transform: rotateZ(-25deg);
+  height: 25px;
+  background-color:#d6d6d6;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: inset 3px 0px 7px 1px rgb(0 0 0 / 40%);
+  position: relative;
+  bottom: 5%;
+  right: 5%;
+}
 
 .select {
 grid-column: 1;
@@ -234,10 +255,11 @@ grid-row: 1;
 .select, .start {
   background-color:#6d7781;
   border-radius: 10px;
+  box-shadow: inset 3px 0px 7px 1px rgb(0 0 0 / 40%);
   margin-right: 10px;
   width: 80px;
   transform: rotateZ(-25deg);
-  height: 16px;
+  height: 16px; 
 }
 
 .text-select {
