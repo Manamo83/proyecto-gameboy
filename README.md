@@ -6,30 +6,16 @@ Un repositorio que quiere mostar lo aprendido en html y css durante el curos de 
 
 ## Tabla de contenido
 - [Tecnología usada](#tecnología-usada).
-- [¿Cómo funciona?](#como-funciona).
-- [Contribuir](#contribuir).
-- [Tips de sintaxis para dar formato a los README](#tips-de-sintaxis-para-dar-formato-a-los-readme).
-  - [Insertar HN](#insertar-hn).
-  - [Cursivas](#cursivas).
-  - [Negrilla](#negrilla).
-  - [Viñetas para tablas de contenido](#vi%C3%B1etas).
-  - [insertar imágenes](#insertar-im%C3%A1genes).
-  - [Insertar enlaces](#insertar-enlaces).
-  - [Hacer anclaje](#hacer-anclaje).
-  - [Insertar una línea de código](#insertar-una-l%C3%ADnea-de-c%C3%B3digo).
-  - [Insertar un bloque de código](#insertar-un-bloque-de-c%C3%B3digo).
-  - [Resaltar el código](#resaltar-el-c%C3%B3digo).
-  - [Insertar tablas](#insertar-tablas).
-  - [Referencias externas sobre markdown](#referencias-externas-sobre-markdown).
-- [FAQs](#faqs).
-  - [¿Por qué debería documentar todo lo que aprendo?](#porque-deber%C3%ADa-documentar-todo-lo-que-aprendo)
+- [¿Qué encontrarás?](#qué-encontrarás).
+- [Documentación](#documentación).
+
   
 ### Tecnología usada
 `HTML y CSS`
 
 ![imagen html y css] <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/19828807/image/medium-ce1b78f619b820783e482de407a2368f.png" width="250"/>
 
-### ¿Cómo funciona?
+### ¿Qué encontrarás?
 En el repositorio realizado para este proyecto se encuentran los distintos archivos creado organizados en carpetas:
 
 - index.html
@@ -39,3 +25,14 @@ En el repositorio realizado para este proyecto se encuentran los distintos archi
 
 Puedes clonar el repositorio para trabajarlo de manera personal. Si realizas cambios o modificaciones significativas compartelo y así aprenderé mucho más de este proyecto. 
 
+### Documentación
+Tras el curso de incio a la programación de GEEKLABS, se nos asigna un reto "realizar una videoconsola con html y CSS". 
+Los primeroa pasaso han sido complicado hasta conseguir una versión que me resulta agradeble. 
+He usado html con una estrcutura fácil, usando un id para el el cuerpo de la consola, y pintando a través de div y class los elementos como: botones, pantallas y cruceta. 
+Con algo de investigación, he podido añadir al CSS estilos que no conocía como:
+- transform
+- box-shadow
+
+Y todos los demás estilos que he ido adquiriendo durante el curso y otros que ya sabía.
+Por falta de experiencia en el uso del html y el css he tardado quizás más de la cuenta, además la visuaclización de los elementos en el espacio me ha costado bastante trabajo. 
+Aun no he conseguido hacerlo respnsive y será mi proximo objetivo. 
